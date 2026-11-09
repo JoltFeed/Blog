@@ -1,0 +1,17 @@
+{
+  "name": "joltfeed-publishing-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fast, mobile-first Apple-style publishing website and deterministic ad placement manager for JoltFeed",
+  "scripts": {
+    "dev": "node src/server.mjs",
+    "build": "node scripts/build-check.mjs",
+    "start": "node src/server.mjs",
+    "create-admin": "node scripts/create-admin.mjs",
+    "test": "node tests/verify-workflow.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
